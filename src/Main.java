@@ -1,5 +1,8 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Ahoj světe!");
+        Messages messages = new Messages();
+
+        System.out.println(messages.hello + " " + messages.world);
     }
 }
